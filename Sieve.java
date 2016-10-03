@@ -21,8 +21,8 @@ public class Sieve {
 	
 	//generates a Java 1.8 Predicate that will return true for numbers that are a multiple of num
 	public Predicate<Integer> isMultipleOf(Integer num) {
-        return i -> i % num == 0;
-    }
+        	return i -> i % num == 0;
+    	}
 	
 	public void findPrimes() {
 		long start = System.currentTimeMillis();
